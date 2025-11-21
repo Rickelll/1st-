@@ -18,3 +18,16 @@ print("Features Dataset Columns: ", features_dataset.columns)
 dataset = pd.merge(features_dataset, sales_dataset, how='left', on=['Store', 'Date', 'IsHoliday'])      #Merging all Dataset To make Data Easier to Manipulate
 dataset = pd.merge(dataset, stores_dataset, how='left', on=['Store'])
 print(dataset)
+
+print("Dataset Columns: ", dataset.columns)
+print(dataset.describe())
+print(dataset.isnull().sum())                               #Checking NaN values of my columns to see which ones are useful
+
+dataset = dataset[['Store', 'Date', 'Temperature', 'Weekly_Sales', 'Dept', 'Size','IsHoliday']]             #Gets Relevant Columns for data
+print(dataset.head())
+
+print("Dataset Columns: ", dataset.columns)
+print(dataset.isnull().sum())
+
+
+
