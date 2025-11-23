@@ -66,3 +66,7 @@ print(dataset[dataset['Dept'].isna()])
 print(dataset['IsHoliday'].unique())                                                            #Checking what values are in Column and Confirming they are a Boolean
 dataset['IsHoliday'] = dataset['IsHoliday'].astype(int)                                         #Changing boolean Values to integers 0 and 1
 print(dataset.head())
+
+print(dataset.isnull().sum())
+print("Dataset Columns: ", dataset.columns)
+print(dataset.head())
