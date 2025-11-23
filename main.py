@@ -80,3 +80,8 @@ avg_weekly_sales_no_holidays = dataset[dataset['IsHoliday'] == 0]['Weekly_Sales'
 print(f"Averager With No Holidays (Weekly Sales): {avg_weekly_sales_no_holidays}")
 avg_weekly_sales_with_holidays = dataset[dataset['IsHoliday'] == 1]['Weekly_Sales'].mean()                  #1 is True so they do have a holiday
 print(f"Average With Holidays (Weekly Sales): {avg_weekly_sales_with_holidays}")
+
+#STEP - 3
+#Putting cleaned data into a DataFrame
+cleaned_dataset = pd.DataFrame(dataset)
+print(cleaned_dataset)
