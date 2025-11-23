@@ -62,3 +62,7 @@ print(dataset[dataset['Dept'].isna()])                                          
 
 dataset = dataset.dropna(subset=['Dept'])
 print(dataset[dataset['Dept'].isna()])
+
+print(dataset['IsHoliday'].unique())                                                            #Checking what values are in Column and Confirming they are a Boolean
+dataset['IsHoliday'] = dataset['IsHoliday'].astype(int)                                         #Changing boolean Values to integers 0 and 1
+print(dataset.head())
