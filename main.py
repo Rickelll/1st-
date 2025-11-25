@@ -85,3 +85,16 @@ print(f"Average With Holidays (Weekly Sales): {avg_weekly_sales_with_holidays}")
 #Putting cleaned data into a DataFrame
 cleaned_dataset = pd.DataFrame(dataset)
 print(cleaned_dataset)
+
+#STEP - 4
+#Visualising Average Weekly Sales in a Chart
+avg_sales_per_store = cleaned_dataset.groupby('Store')['Weekly_Sales'].mean().reset_index()
+print("Average Weekly Sales per Store:")
+print(avg_sales_per_store)
+
+plt.figure(figsize=(16,6))
+plt.bar(avg_sales_per_store['Store'], avg_sales_per_store['Weekly_Sales'])
+plt.title("Average Weekly Sales per Store")
+plt.xlabel("Store")
+plt.ylabel("Average Weekly Sales")
+plt.show()
