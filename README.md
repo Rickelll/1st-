@@ -10,6 +10,20 @@ In this project you will be taken step by step with everything that is happening
 This Dataset is sourced from [kaggle.](https://www.kaggle.com/datasets/manjeetsingh/retaildataset)
 
 The Project uses dataset sourced from Kaggle, consisting of three CSV files:
-- *Stores Dataset- Stores Number of Store, Types of Store and Size of Store*
+- *Stores Dataset- Stores Number of Store, Types and Size of Store*
 - *Sales Dataset- Weekly Sales data by Store, Department and Date*
 - *Features Dataset- External Store data such as Holidays, CPI and Markdown*
+    -*Date*
+    -*Type of Store*
+    -*Department of Store*
+    -*Holiday indicator*
+    -*CPI*
+    -*Unemployment*
+    -*Markdwon 1-5*
+    -*Weekly Sales*
+
+## Dataset Characteristics
+- *45 stores*
+- *Multiple departments*
+- *Varying date ranges per store*
+- *Contains missing values*
