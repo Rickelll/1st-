@@ -31,5 +31,7 @@ The Project uses dataset sourced from Kaggle, consisting of three CSV files:
 - *Contains missing values that require cleaning and preprocessing*
 
 ## Agile Methodology
-- *In the begining of the project I decided to create Kanban project, to keep track of progression. The idea is to help me in following a direction while building this project.*
+- *In the beginning of the project I decided to create Kanban project, to keep track of progression. The idea is to help me in following a direction while building this project.*
 -  *The Kanban Table Project can be found [here.](https://github.com/users/Rickelll/projects/8/views/1)*
+
+![table](../Users/ricky/Pictures/Project%20screenshot%20%28Kanban%20project%29.PNG)
