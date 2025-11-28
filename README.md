@@ -27,7 +27,8 @@ The Project uses dataset sourced from Kaggle, consisting of three CSV files:
 - *Multiple departments*
 - *Varying date ranges per store*
 - *Contains missing values*
-The data stores information of the stores from January 2010 to October 2012
+- *Covers January 2010 to October 2012*
+- *Contains missing values that require cleaning and preprocessing*
 
 ## Agile Methodology
 - *In the begining of the project I decided to create Kanban project, to keep track of progression. The idea is to help me in following a direction while building this project.*
