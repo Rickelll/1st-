@@ -1,9 +1,9 @@
 # Retail Sales Data Analysis
 
 This project has been made as part of a milestone project with the Data Analytic & AI course provided by Code Institute.
-This project represents Extracting, Transforming and Loading Data As well as Visualising with Descriptive, Trend, Impact and Comparative Analysis.
+It demonstrates an end-to-end data workflow, including Extracting, Transforming and Loading (ETL) data, as well as data visualisation using descriptive, trend, impact and comparative analysis.
 
-In this project you will be taken step by step with everything that is happening from Data Cleaning to Feature Engineering.
+The project guides you step by step through the entire process, from data cleaning to feature engineering, clearly explaining each stage.
 
 ## Dataset Content
 
