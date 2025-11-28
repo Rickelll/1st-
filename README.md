@@ -34,4 +34,13 @@ The Project uses dataset sourced from Kaggle, consisting of three CSV files:
 - *In the beginning of the project I decided to create Kanban project, to keep track of progression. The idea is to help me in following a direction while building this project.*
 -  *The Kanban Table Project can be found [here.](https://github.com/users/Rickelll/projects/8/views/1)*
 
-![Table showing dataset example](images/table.png)
+## Business Requirements
+The ultimate goal is to understand how our holidays, store types and time impact each of our stores performances, Finding this insight on our data can lead to better business strategies as well as better management across all of our stores.
+
+The core business questions addressed by this project are:
+1. What are our busiest times of the year?
+2. How do sales trends evolve over time across different stores?
+3. Are there differences in performance between stores and store types?
+4. Do markdowns differ between holiday and non-holiday weeks?
+
+
