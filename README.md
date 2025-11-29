@@ -43,4 +43,22 @@ The core business questions addressed by this project are:
 3. Are there differences in performance between stores and store types?
 4. Do markdowns differ between holiday and non-holiday weeks?
 
+## Hypothesis and Validation
 
+1. Hypotheses:
+- *Average weekly sales differ between stores*
+- *Sales trends change based on the time of year*
+- *Markdown activity is higher during holiday weeks than during non-holiday weeks*
+- *Different store types may vary in size leading to differences in sales volume*
+
+## Validation Methods
+
+2. Validation Methods:
+- *We consider that stores differ in their average weekly sales performance.*
+  - *A comparison of average weekly sales across all stores can help in investigating if this is true.*
+- *We consider that weekly sales trends change over time and differ across stores, reflecting store-specific and seasonal patterns.*
+  - *A trend analysis of weekly sales over time for each store can help in investigating if this is true.*
+- *We consider that markdown promotional activity is higher during holiday weeks than during non-holiday weeks.*
+  - *A comparison of total markdown values between holiday and non-holiday periods can help in investigating if this is true.*
+- *We consider that store type influences sales performance, where stores of different types achieve different average weekly sales.*
+ - *A comparison of average weekly sales across store types can help in investigating if this is true.*
