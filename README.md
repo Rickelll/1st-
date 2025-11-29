@@ -75,12 +75,12 @@ The core business questions addressed by this project are:
 
 ---
 
-|Column|Method|Reason|
-|:----|:----|:----|
-|MarkDown1–5|Filled with 0|Missing values indicate no promotion; setting to 0 avoids distortion in visual comparisons|
-|CPI & Unemployment|Median|Reduces influence of outliers while preserving distribution|
-|Weekly_Sales|Mean|Prevents row loss and maintains overall descriptive accuracy|
-|Dept|Rows removed|Department-level context is essential for reliable analysis|
+|Column|Method| Reason                                                                                                                              |
+|:----|:----|:------------------------------------------------------------------------------------------------------------------------------------|
+|MarkDown1–5|Filled with 0| Missing values indicate no promotion; setting to 0 avoids issues in visual comparisons |
+|CPI & Unemployment|Median| Median was chosen to avoid extreme values and keep a realistic visual comparsion |
+|Weekly_Sales|Mean| This was done so rows were not removed and the overall sales picture stayed consistent |
+|Dept|Rows removed| Without department information, it is unclear how to interpret the sales data, so these records were removed|
 
 
 These decisions were made based on best practices taught during the course.
