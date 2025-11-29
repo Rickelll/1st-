@@ -62,3 +62,25 @@ The core business questions addressed by this project are:
   - *A comparison of total markdown values between holiday and non-holiday periods can help in investigating if this is true.*
 - *We consider that store type influences sales performance, where stores of different types achieve different average weekly sales.*
  - *A comparison of average weekly sales across store types can help in investigating if this is true.*
+
+## Data Cleaning and Analyst Techniques
+# Techniques Used:
+- *Dataset merging through pandas*
+- *Null Value analysis*
+- *mean and median used for missing values*
+- *Feature Engineering on types of Data*
+- *Feature grouping*
+
+# Missing Data Handing Justification
+
+---
+
+|Column|Method|Reason|
+|:----|:----|:----|
+|MarkDown1–5|Filled with 0|Missing values indicate no promotion; setting to 0 avoids distortion in visual comparisons|
+|CPI & Unemployment|Median|Reduces influence of outliers while preserving distribution|
+|Weekly_Sales|Mean|Prevents row loss and maintains overall descriptive accuracy|
+|Dept|Rows removed|Department-level context is essential for reliable analysis|
+
+
+These decisions were made based on best practices taught during the course.
