@@ -92,8 +92,47 @@ These decisions were made based on best practices taught during the course.
 
 
 ### Description:
-- This bar chart represents the average weekly sales for each of the 45 stores in the dataset.
+- The bar chart shows the average weekly sales for each of the 45 stores.
 
 - *Through the bar chart we can tell there's a notable variability in average weekly sales among stores.*
-- *We see a huge impact on some stores compared to others, suggesting the location, size or demand differences.*
-- *This chart can be used to promote highly achieving stores or check low performing stores for improvements.*
+- *There is clear variation in sales performance among stores, with some having much higher average sales than others. This suggests that factors like store location, size, or customer demand have a strong impact.*
+- *The chart helps identify both high-performing stores and those that may need performance improvements.*
+
+### What this means:
+
+So, what we’re seeing here is that there’s a lot of variation in average weekly sales among the stores. Some stores are definitely outperforming others, and that shows that things like location, store size, and local demand really have a big impact.
+In other words, this chart helps us see which stores are doing great and which ones might need a little extra attention to improve.
+
+2. Stores Weekly Trend Overtime
+
+
+
+
+3. Total Markdowns: Holiday vs Non-Holiday
+
+![Weekly Trend Overtime: Holiday vs Non-Holiday](images/Weekly_Sales_Bar_Chart.PNG)
+
+### Descirption:
+- This bar chart shows the total markdown values for five types of markdowns (MarkDown1 to MarkDown5) during holiday and non-holiday periods.
+
+- *Non-holiday periods have higher markdown values, particularly MarkDown 1 and MarkDown 5 which is the opposite of our earlier hypothesis.*
+- *Holidays show lower markdowns, though MarkDown 2 and MarkDown 3 slightly increase relative to other types.*
+- *This suggests stores may have discounted heavily during non-holiday periods to drive sales.*
+
+### What this Means:
+Basically, what we're seeing is that stores tend to offer bigger discounts during non-holiday periods to boost sales. However, during the holidays they seem more moderate when there's less competition.
+They get more aggressive with discounts during the non-holiday period.
+
+4.  Average Weekly Sales by Store Type
+
+![Average Weekly Sales by Store Type](images/Region_Sales_Based_On_Store_types.PNG)
+
+### Description
+- This bar chart compares the average weekly sales across different store types (A, B, and C).
+
+- *Store Type A records the highest average weekly sales, indicating stronger overall performance. Store Type B shows moderate sales levels, while Store Type C has the lowest average weekly sales among the three.*
+- *These differences suggest that store type plays a huge role in sales performance, potentially due to factors such as store size, customer traffic, or location strategy. This information can be used to guide business decisions.*
+- *From the chart, it’s clear that Store Type A is leading with the highest average weekly sales.*
+
+### What this Means:
+Because Type A stores perform so well, it makes more sense to either open more Type A stores or take parts of Type A stores and implement them across other Store Types.
