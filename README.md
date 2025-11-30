@@ -88,7 +88,7 @@ These decisions were made based on best practices taught during the course.
 ## Sales and Markdown Analysis
 1. Average Weekly Sales per Store
 
-![Average Weekly Sales Bar Chart](images/Weekly Sales Bar Chart.PNG)
+![Average Weekly Sales Bar Chart](images/Weekly_Sales_Bar_Chart.PNG)
 
 
 ### Description:
