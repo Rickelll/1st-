@@ -88,7 +88,12 @@ These decisions were made based on best practices taught during the course.
 ## Sales and Markdown Analysis
 1. Average Weekly Sales per Store
 
-![Average Weekly Sales](./images/Weekly%20Sales%20Bar%20Chart.png)
+![Average Weekly Sales Bar Chart](images/Weekly Sales Bar Chart.PNG)
+
 
 ### Description:
 - This bar chart represents the average weekly sales for each of the 45 stores in the dataset.
+
+- *Through the bar chart we can tell there's a notable variability in average weekly sales among stores.*
+- *We see a huge impact on some stores compared to others, suggesting the location, size or demand differences.*
+- *This chart can be used to promote highly achieving stores or check low performing stores for improvements.*
