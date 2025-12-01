@@ -105,15 +105,25 @@ In other words, this chart helps us see which stores are doing great and which o
 
 2. Stores Weekly Trend Overtime
 
+![Weekly Trends Overtime Per store by Sales](images/Weekly_Trend_Overtime_per_Store.PNG)
 
+### Description:
+- This line chart shows the weekly sales trend overtime for each store in the dataset. Each store is represented by different lines on the graph, allowing us to compare how sales change week by week across different locations.
 
+- *Through the line chart, we can see there are fairly consistent sales overtime per each store, with noticeable spikes around the same period which could line up with major events such as holiday seasons or different promotional periods.*
+- *We notice that sales tend to rise and fall together across many stores*
+
+### What this means:
+
+Overall, this suggests that while each store has its own number of weekly sales, many of them respond to season or promotional trends.
+The large spike could indicate higher customer demands in most locations and the baseline number of sales could show size and location differences across all the stores.
 
 3. Total Markdowns: Holiday vs Non-Holiday
 
 ![Weekly Trend Overtime: Holiday vs Non-Holiday](images/Markdown_between_Holidays_and_non_holidays_chart.PNG)
 
 
-### Descirption:
+### Description:
 - This bar chart shows the total markdown values for five types of markdowns (MarkDown1 to MarkDown5) during holiday and non-holiday periods.
 
 - *Non-holiday periods have higher markdown values, particularly MarkDown 1 and MarkDown 5 which is the opposite of our earlier hypothesis.*
