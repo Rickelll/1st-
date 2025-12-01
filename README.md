@@ -105,7 +105,7 @@ In other words, this chart helps us see which stores are doing great and which o
 
 2. Stores Weekly Trend Overtime
 
-![Weekly Trends Overtime Per store by Sales](images/Weekly_Trend_Overtime_per_Store.PNG)
+![Weekly Trends Overtime Per store by Sales](images/weekly_trend_overtime_per_store.png)
 
 ### Description:
 - This line chart shows the weekly sales trend overtime for each store in the dataset. Each store is represented by different lines on the graph, allowing us to compare how sales change week by week across different locations.
@@ -136,7 +136,7 @@ They get more aggressive with discounts during the non-holiday period.
 
 4.  Average Weekly Sales by Store Type
 
-![Average Weekly Sales by Store Type](images/Region_Sales_Based_On_Store_types.png)
+![Average Weekly Sales by Store Type](images/region_sales_based_on_store_types.png)
 
 ### Description
 - This bar chart compares the average weekly sales across different store types (A, B, and C).
