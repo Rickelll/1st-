@@ -110,7 +110,8 @@ In other words, this chart helps us see which stores are doing great and which o
 
 3. Total Markdowns: Holiday vs Non-Holiday
 
-![Weekly Trend Overtime: Holiday vs Non-Holiday](images/Weekly_Sales_Bar_Chart.PNG)
+![Weekly Trend Overtime: Holiday vs Non-Holiday](images/Markdown_between_Holidays_and_non_holidays_chart.PNG)
+
 
 ### Descirption:
 - This bar chart shows the total markdown values for five types of markdowns (MarkDown1 to MarkDown5) during holiday and non-holiday periods.
@@ -125,7 +126,7 @@ They get more aggressive with discounts during the non-holiday period.
 
 4.  Average Weekly Sales by Store Type
 
-![Average Weekly Sales by Store Type](images/Region_Sales_Based_On_Store_types.PNG)
+![Average Weekly Sales by Store Type](images/Region_Sales_Based_On_Store_types.png)
 
 ### Description
 - This bar chart compares the average weekly sales across different store types (A, B, and C).
