@@ -81,8 +81,8 @@ avg_weekly_sales_with_holidays = dataset[dataset['IsHoliday'] == 1]['Weekly_Sale
 print(f"Average With Holidays (Weekly Sales): {avg_weekly_sales_with_holidays}")
 
 # STEP - 3
+# Storing cleaned dataset in a dataframe
 
-# Storing cleaned dataset
 cleaned_dataset = pd.DataFrame(dataset)
 print(cleaned_dataset)
 
