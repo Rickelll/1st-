@@ -191,3 +191,11 @@ Because Type A stores perform so well, it makes more sense to either open more T
 - *Pandas*
 - *Matplotlib*
 - *Numpy*
+
+## Credits
+
+### Content
+- Dataset from Kaggle
+
+### Media
+- Graphs and visualizations used throughout the project to better understand and explain the data.
