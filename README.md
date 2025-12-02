@@ -71,6 +71,18 @@ The core business questions addressed by this project are:
 - *Feature Engineering on types of Data*
 - *Feature grouping*
 
+### Data Management Throughout the Project
+
+**Collection:**  
+The data was sourced from Kaggle, which helps ensure the analysis is reliable.
+
+**Processing:**  
+The data was cleaned, transformed, and encoded in a structured ETL workflow. This helped keep the data consistent and accurate throughout the entire project.
+
+**Analysis and Interpretation:**  
+The processed data was organized into clear, feature-engineered datasets. Visuals and statistical analysis were then used to help answer the business questions and test the original hypotheses.
+
+
 # Missing Data Handing Justification
 
 ---
@@ -147,3 +159,35 @@ They get more aggressive with discounts during the non-holiday period.
 
 ### What this Means:
 Because Type A stores perform so well, it makes more sense to either open more Type A stores or take parts of Type A stores and implement them across other Store Types.
+
+## Analysis Techniques Used
+
+### Data Analysis Methods
+
+- *Descriptive Analysis: Understanding and Visualising Data*
+  - *Organizing raw data*
+  - *Summarizing data*
+  - *Identifying patterns or trends in the data*
+
+
+- *Trend Analysis*
+  - *Identifies long term patterns*
+  - *Helps understand change overtime*
+  - *Shows growth or loss throughout time*
+
+
+- *Impact Analysis*
+  - *Measures positive or negative affects*
+  - *Shows before and after results*
+  - *Helps understanding overtime*
+
+
+- *Comparative Analysis*
+  - *Helps understand differences and similarities*
+  - *Helps decision-making*
+  - *Helps choosing better options over time*
+## Main Data Analysis Libraries
+
+- *Pandas*
+- *Matplotlib*
+- *Numpy*
